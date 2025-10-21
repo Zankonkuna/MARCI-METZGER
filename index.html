@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Marzi Metzger Home</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div class="HideOnMobile">
+        <div class="row nav">
+            <div class="col-7">
+                <img src="media/Logo.webp" alt="MarziMeger" class="logo">
+            </div>
+    
+            <div class="col-1 active">
+                <a href="index.html">
+                HOME
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#">
+                LISTINGS
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#">
+                LET'S MOVE
+                </a>
+            </div>
+            <div class="col-1">
+                <a href="#">
+                ABOUT US
+                </a>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        </div>
+        <div class="ShowOnMobile">
+        <div class="row nav">
+            <div class="col-7">
+                <img src="media/Logo.webp" alt="MarziMeger" class="logo">
+            </div>
+    
+             <div class="col-8">
+                </div>
+                <div class="col-1 logo">
+                        <i class="bi bi-list hyper" onclick=ShowSidebar()></i>
+                </div>
+            <div class="sidebar">
+                <ul>
+                    <li><a class="col-1 active" href="Index.html">HOME</a></li>
+                    <li> <a class="col-1" href="#">LISTINGS</li></a>
+                    <li><a class="col-1" href="#">LET'S MOVE</a></li>
+                    <li><a class="col-1" href="#">ABOUT US</a></li>
+                    <li class="col-1"><i class="bi bi-arrow-left" onclick=HideSidebar()></i></li>
+                </ul>
+            <div class="col-1"></div>
+        </div>
+        </div>
+        </div>
+        <hr>
+        <!-- PHOTO GALLERY -->
+ 
+        <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="media/slide-1.webp" class="d-block" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="media/slide-2.webp" class="d-block" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="media/slide-3.webp" class="d-block" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="media/slide-4.webp" class="d-block" alt="Slide 4">
+            </div>
+            <div class="carousel-item">
+                <img src="media/slide-5.webp" class="d-block" alt="Slide 5">
+            </div>
+            <div class="carousel-item">
+                <img src="media/slide-6.webp" class="d-block" alt="Slide 6">
+            </div>
+            <div class="carousel-item">
+                <img src="media/slide-7.webp" class="d-block" alt="Slide 7">
+            </div>
+            </div>
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+        </div>
+        </div>
+        <!-- MAIN -->
+         
+        <br>
+        <div class="container-fluid bg-color-black">
+
+
+            <!-- MARZI INTRO -->
+            <div class="row justify-content-center align-items-center MarziIntro">
+                <div class="col-4  text-center">
+                    <img src="media/MarciJMetzger.webp" alt="Marzi Metzger" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-6">
+                    <h2>Meet Marci Metzger: A realtor for nearly 3 Decades!</h2>
+                    <p>
+                       Marci was a REALTOR, then licensed Broker, in Washington State.
+                       <br> 
+                       Now, she is enjoying the sunshine, and helping clients in Southern Nevada. 
+                       <br>
+                       Having helped buyers and sellers in many markets since 1995, she is a wealth of knowledge.
+            </div>
+            </div>
+            <div class="row text-center">
+                <h3 style="font-weight: bold">WHY CHOOSE MARCI METZGER?</h3>
+                <p> We helped nearly 90 clients in 2021, and closed 28.5 million in sales! 
+                        <br>
+                        Our team works hard everyday to grow and learn, so that we may continue to excel in our market.
+                        <br>
+                        Our clients deserve our best, & we want to make sure our best is better every year.
+                        <br>
+                        We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.
+                        <br>
+                        Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!</p></p>
+            </div>
+
+            <!-- SERVICES -->
+            <div class="row">
+                <h3 style="font-weight: bold" class="text-center">OUR SERVICES</h3>
+            </div>
+            <div class="row justify-content-evenly align-items-center">
+                <div class="col-2">
+                    <div class="row"><img src="media/Services-1.webp" alt="Service 1"></div>
+                    <div class="row"><h5>Real Estate Done Right</h5></div>
+                    <div class="row"><p>Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, 
+                        looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!</p></div>
+                    
+                </div>
+                <div class="col-2">
+                    <div class="row"><img src="media/Services-2.webp" alt="Service 2"></div>
+                    <div class="row"><h5>Commercial & Residential</h5></div>
+                    <div class="row"><p>Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers? Luxury? 
+                        We can help with all of it! We live, work, and play in this community. Happy to help you find where to put you hard-earned dollars</p></div>
+                </div>
+                <div class="col-2">
+                    <div class="row"><img src="media/Services-3.webp" alt="Service 3"></div>
+                    <div class="row"><h5>Rely on Expertise</h5></div>
+                    <div class="row"><p>If you have questions about affordability, credit, and loan options, trust us to connect you with the 
+                        right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.</p></div>
+                </div>
+            </div>
+        </div>
+            <!-- FOOTER -->
+             <!-- later will add this -->
+            <div class="row footer text-center footer">
+                <div class="col-6 footer">
+                    <p>Socials</p>
+                    <div class="row text-center justify-content-center align-items-center ">
+                        <div class="col-1"><a href="https://www.facebook.com/MarciHomes/"><i class="bi bi-facebook"></i></a></div>
+                        <div class="col-1"><a href="https://www.instagram.com/marciandlauren_nvrealtors/"><i class="bi bi-instagram"></i></a></div>
+                        <div class="col-1"><a href="https://www.linkedin.com/in/marci-metzger-30642496/"><i class="bi bi-linkedin"></i></a></div>
+                        <div class="col-1"><a href="https://www.yelp.com/biz/marci-metzger-the-ridge-realty-pahrump"><i class="bi bi-yelp"></i></a></div>
+                        <div class="col-1"><a href="https://api.whatsapp.com/send/?phone=14259412560&text&type=phone_number&app_absent=0"><i class="bi bi-whatsapp"></i></a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">Contact Us: (206) 919-6886</div>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <p>Visit Us:</p>
+                    <div class="row">
+                        <div class="col-12"><p>3190 HW-160, Suite F,Pahrump, Nevada 89048</p></div>
+                        <div class="col-12"><p>United States</p></div>
+                        <div class="col-12"><p>Open daily: 8:00 am - 7:00 pm</p></div>
+                </div>
+                </div>  
+                <div class="row">
+                     <p>© 2024 Marci Metzger. All rights reserved.</p>
+
+                                        <hr>
+                    <p>Made By: Juan Carlos Salvador</p>
+                </div>
+        </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

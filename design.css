@@ -1,0 +1,158 @@
+:root {
+    --seco-color: rgb(61, 61, 61) ;
+    --main-color: #242424;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Flavium', serif;
+    min-height: 100vh;
+    margin-bottom: 0;
+}
+.ShowOnMobile{
+    display:none;
+}
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.carousel-inner {
+    overflow: visible;
+}
+.carousel-item {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+.carousel-item.active {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1);
+}
+.carousel-item img {
+    margin: auto;
+    width: 100%;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+    background-color: var(--main-color);
+    padding: 25px;
+    border-radius: 50%;
+}
+.row{
+    margin-bottom: 2%;
+}
+.nav{
+    margin-bottom: 0%;
+}
+.logo{
+    display: flex;
+    margin-left: 10vh;
+    width: 35vh;
+
+}
+.col-1 a{
+    text-decoration: none;
+    color: var(--main-color);
+
+}
+.active a{
+    font-weight: bolder;
+}
+.col-1 a:hover{
+    backdrop-filter: brightness(0.8);
+    padding: 5%;
+    border-radius: 25px;
+    font-weight: bolder;
+    transition: 0.5;
+}
+.col-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.col-2 img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+}
+p{
+    font-family: sans-serif;
+    color:var(--seco-color);
+}
+.col-2{
+    text-align: center;
+}
+.MarziIntro{
+    background-color: var(--main-color);
+    color:white
+}
+.MarziIntro p{
+    color: white;
+}
+.img-fluid{
+    padding: 2%;
+}
+.footer {
+    background-color: #242424;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer i {
+    font-size: 1.2rem;
+}
+
+.footer p {
+    color: white;
+    margin: 0.5rem 0;
+}
+@media only screen and (max-width: 800px) {
+    .HideOnMobile{
+        display: none;
+    }
+    .ShowOnMobile{
+        display:block;
+    }
+        .sidebar{
+        padding: 10px;
+        position: fixed;
+        top:0;
+        right:0;
+        height:100vh;
+        width:250px;
+        z-index: 999;
+        background-color: var(--seco-color);
+        box-shadow: -10px 0 10px var(--main-color);
+        display:none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .sidebar ul{
+        list-style: none;
+    }
+    .sidebar li{
+        width: 100%;
+        padding: 10%;
+    }
+    .sidebar a{
+        width: 100%;
+    }
+}
